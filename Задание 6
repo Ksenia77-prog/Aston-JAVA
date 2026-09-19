@@ -1,0 +1,7 @@
+public static void checkNumber(int a) {
+    if (a >= 0) { 
+        System.out.println("положительное"); 
+    } else {
+        System.out.println("отрицательное"); 
+    }
+}
