@@ -1,0 +1,6 @@
+public static void main(String args[]) {  
+    int[][] table = new int[5][5];
+    for (int i = 0; i < table.length; i++) {
+        table[i][i] = 1;
+    } 
+}
