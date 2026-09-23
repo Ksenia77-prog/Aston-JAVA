@@ -1,0 +1,30 @@
+class Park {
+    String parkName;
+    public Park(String parkName) {
+        this.parkName = parkName;
+    }
+    class Attraction {
+        String attractionName;
+        String workingHours;
+        int ticketPrice;
+        public Attraction(String attractionName, String workingHours, int ticketPrice) {
+            this.attractionName = attractionName;
+            this.workingHours = workingHours;
+            this.ticketPrice = ticketPrice;
+        }
+        public void displayInfo() {
+            System.out.println("Парк: " + parkName);
+            System.out.println("Аттракцион: " + attractionName);
+            System.out.println("Время работы: " + workingHours);
+            System.out.println("Цена билета: " + ticketPrice + " руб.");
+            System.out.println("------------------------------------");
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Park myPark = new Park("Диво Остров");
+        Park.Attraction rollerCoaster = myPark.new Attraction("Большие горки", "11:00 - 22:00", 600);
+        rollerCoaster.displayInfo();
+    }
+}
