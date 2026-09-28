@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("=== ВЫВОД ВСЕГО СПИСКА ТОВАРОВ ===");
         Product[] productsArray = new Product[5];
 
