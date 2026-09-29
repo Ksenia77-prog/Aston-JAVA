@@ -1,7 +1,0 @@
-public static boolean checkNumber(int a) {
-    if (a < 0) { 
-        return true; 
-    } else { 
-        return false; 
-    }
-}
